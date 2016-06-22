@@ -16,6 +16,8 @@ Install notes:
     - openstack.keystone_host="127.0.0.1" # IP address keystone host
     - openstack.user_port=5000 # Request port
     - openstack.admin_port=35357
+6. Restart php-fpm or apache2 service ( who are using )
+7. Check phpinfo(); for openstack module is running
 
 Module functionality:
 
